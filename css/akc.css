@@ -1,0 +1,267 @@
+@font-face {
+    font-family:"collaged";
+    src: url('../font/Colleged.ttf') format("truetype");
+}
+@font-face {
+    font-family:"potra";
+    src: url('../font/Potra.ttf') format("truetype");
+}
+@font-face {
+    font-family:"collegethrash";
+    src: url('../font/CollegeThrash.ttf') format("truetype");
+}
+@font-face {
+    font-family:"a";
+    src: url('../font/KGHAPPY.ttf') format("truetype");
+}
+@font-face {
+    font-family:"b";
+    src: url('../font/Meatloaf.ttf') format("truetype");
+}
+@font-face {
+    font-family:"c";
+    src: url('../font/orangejuice.ttf') format("truetype");
+}
+
+@media screen and (min-width: 1051px) {
+    /* Style The Dropdown Button */
+    .dropbtn {
+        padding: 16px;
+        font-size: 30px;
+        font-family: a;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        background-color: white;
+    }
+
+    /*---------------------------------------------------------------------------------------------------*/
+
+    .akc{
+        background-image: url('../3.png');
+        background-size: 110px 110px;
+        background-repeat: no-repeat;
+        background-position:right;
+        position: relative;
+        width: 110px;
+        height: 110px;
+    }
+    div#first{
+        background: -moz-linear-gradient(270deg,#751aff, #ff0066); /* FF3.6+ */
+        background: -webkit-linear-gradient(270deg,#751aff,#ff0066); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(270deg,#751aff,#ff0066); /* Opera11.10+ */
+        background: -ms-linear-gradient(270deg,#751aff,#ff0066); /* IE10+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#751aff', endColorstr='#ff0066',GradientType=0); /* IE6-9 */
+        background: linear-gradient(270deg,#751aff,#ff0066); /* W3C */
+        margin: 0 auto;
+        width:95%;
+        height:150px;
+    }
+    div#second{
+        background: -moz-linear-gradient(270deg,#751aff, #ff0066); /* FF3.6+ */
+        background: -webkit-linear-gradient(270deg,#751aff,#ff0066); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(270deg,#751aff,#ff0066); /* Opera11.10+ */
+        background: -ms-linear-gradient(270deg,#751aff,#ff0066); /* IE10+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#751aff', endColorstr='#ff0066',GradientType=0); /* IE6-9 */
+        background: linear-gradient(270deg,#751aff,#ff0066); /* W3C */
+        margin: 0 auto;
+        width:95%;
+        height: 750px;
+        border-top: 20px solid black;
+    }
+    iframe{
+        width:100%;
+        height: 100%;
+    }
+    .font{
+        font-family: potra;
+        font-weight: 500;
+        font-size: 80px;
+        padding-right:30px ;
+        text-align: right;
+    }
+    .table{
+        width: 97%;
+        height: 150px;
+    }
+    .link{
+        color: lightblue;
+        font-family: a;
+        font-size: 25px;
+        text-align: center;
+        text-decoration:unset;
+        padding: 20px;
+    }
+    .link:hover{
+        background: white;
+        color: black;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1050px) {
+    .akc{
+        background-image: url('../3.png');
+        background-size: 70px 70px;
+        background-repeat: no-repeat;
+        background-position:right;
+        position: relative;
+        width: 70px;
+        height: 70px;
+    }
+    div#first{
+        background: -moz-linear-gradient(270deg,#751aff, #ff0066); /* FF3.6+ */
+        background: -webkit-linear-gradient(270deg,#751aff,#ff0066); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(270deg,#751aff,#ff0066); /* Opera11.10+ */
+        background: -ms-linear-gradient(270deg,#751aff,#ff0066); /* IE10+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#751aff', endColorstr='#ff0066',GradientType=0); /* IE6-9 */
+        background: linear-gradient(270deg,#751aff,#ff0066); /* W3C */
+        margin: 0 auto;
+        width:95%;
+        height:150px;
+    }
+    .font{
+        font-family: potra;
+        font-weight: 500;
+        font-size: 50px;
+        padding-right:30px ;
+        text-align: right;
+    }
+    .table{
+        width: 97%;
+        height: 150px;
+    }
+    .link{
+        color: lightblue;
+        font-family: a;
+        font-size: 18px;
+        text-align: center;
+        text-decoration:unset;
+        padding: 20px;
+    }
+    .link:hover{
+        background: white;
+        color: black;
+    }
+}
+@media screen and (min-width:501px) and (max-width:800px) {
+    .akc{
+        background-image: url('../3.png');
+        background-size: 60px 60px;
+        background-repeat: no-repeat;
+        background-position:right;
+        position: relative;
+        width: 60px;
+        height: 60px;
+    }
+    div#first{
+        background: -moz-linear-gradient(270deg,#751aff, #ff0066); /* FF3.6+ */
+        background: -webkit-linear-gradient(270deg,#751aff,#ff0066); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(270deg,#751aff,#ff0066); /* Opera11.10+ */
+        background: -ms-linear-gradient(270deg,#751aff,#ff0066); /* IE10+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#751aff', endColorstr='#ff0066',GradientType=0); /* IE6-9 */
+        background: linear-gradient(270deg,#751aff,#ff0066); /* W3C */
+        margin: 0 auto;
+        width:95%;
+        height:150px;
+    }
+    .font{
+        font-family: potra;
+        font-weight: 500;
+        font-size: 33px;
+        padding-right:30px ;
+        text-align: right;
+    }
+    .table{
+        width: 97%;
+        height: 150px;
+    }
+    .link{
+        color: lightblue;
+        font-family: a;
+        font-size: 12px;
+        text-align: center;
+        text-decoration:unset;
+        padding: 20px;
+    }
+    .link:hover{
+        background: white;
+        color: black;
+    }
+}
+@media screen and (max-width:500px) {
+    .akc{
+        background-image: url('../3.png');
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+        background-position:right;
+        position: relative;
+        width: 50px;
+        height: 50px;
+    }
+    div#first{
+        background: -moz-linear-gradient(270deg,#751aff, #ff0066); /* FF3.6+ */
+        background: -webkit-linear-gradient(270deg,#751aff,#ff0066); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(270deg,#751aff,#ff0066); /* Opera11.10+ */
+        background: -ms-linear-gradient(270deg,#751aff,#ff0066); /* IE10+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#751aff', endColorstr='#ff0066',GradientType=0); /* IE6-9 */
+        background: linear-gradient(270deg,#751aff,#ff0066); /* W3C */
+        margin: 0 auto;
+        width:95%;
+        height:150px;
+    }
+    .font{
+        font-family: potra;
+        font-weight: 500;
+        font-size: 25px;
+        padding-right:30px ;
+        text-align: right;
+    }
+    .table{
+        width: 97%;
+        height: 150px;
+    }
+    .link{
+        color: lightblue;
+        font-family: a;
+        font-size: 10px;
+        text-align: center;
+        text-decoration:unset;
+        padding: 20px;
+    }
+    .link:hover{
+        background: white;
+        color: black;
+    }
+}

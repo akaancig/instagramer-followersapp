@@ -1,0 +1,90 @@
+@font-face {
+    font-family:"collaged";
+    src: url('../font/Colleged.ttf') format("truetype");
+}
+@font-face {
+    font-family:"potra";
+    src: url('../font/Potra.ttf') format("truetype");
+}
+@font-face {
+    font-family:"collegethrash";
+    src: url('../font/CollegeThrash.ttf') format("truetype");
+}
+@font-face {
+    font-family:"a";
+    src: url('../font/KGHAPPY.ttf') format("truetype");
+}
+@font-face {
+    font-family:"b";
+    src: url('../font/Meatloaf.ttf') format("truetype");
+}
+@font-face {
+    font-family:"c";
+    src: url('../font/orangejuice.ttf') format("truetype");
+}
+
+div#first{
+    background: -moz-linear-gradient(270deg,#751aff, #ff0066); /* FF3.6+ */
+    background: -webkit-linear-gradient(270deg,#751aff,#ff0066); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(270deg,#751aff,#ff0066); /* Opera11.10+ */
+    background: -ms-linear-gradient(270deg,#751aff,#ff0066); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#751aff', endColorstr='#ff0066',GradientType=0); /* IE6-9 */
+    background: linear-gradient(270deg,#751aff,#ff0066); /* W3C */
+    margin: 0 auto;
+    padding: 40px;
+    width:90%;
+}
+div#second{
+    background: -moz-linear-gradient(270deg,#751aff, #ff0066); /* FF3.6+ */
+    background: -webkit-linear-gradient(270deg,#751aff,#ff0066); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(270deg,#751aff,#ff0066); /* Opera11.10+ */
+    background: -ms-linear-gradient(270deg,#751aff,#ff0066); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#751aff', endColorstr='#ff0066',GradientType=0); /* IE6-9 */
+    background: linear-gradient(270deg,#751aff,#ff0066); /* W3C */
+    margin: 0 auto;
+    padding: 40px;
+    width:90%;
+}
+h1{
+    color: darkorange;
+    font-weight:500;
+    font-family: a;
+}
+.table{
+    border:5px;
+    border-color: white ;
+    border-style: outset;
+    font-size: 23px;
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.unfollowers{
+    margin-top: 30px;
+    border:5px;
+    border-color: black ;
+    border-style: outset;
+    padding: 20px;
+    background: #e60000;
+    color: white;
+}
+.karsilikli{
+    margin-top: 30px;
+    border:5px;
+    border-color: white ;
+    border-style: outset;
+    padding: 20px;
+    background: black;
+    color: white;
+
+}
+.hayranlar{
+    margin-top: 30px;
+    border:5px;
+    border-color: black ;
+    border-style: outset;
+    padding: 20px;
+    background: green;
+    color: white;
+}
